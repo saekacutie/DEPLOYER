@@ -40,11 +40,11 @@ CHOICE=$(echo "$CHOICE" | xargs)
 case "$CHOICE" in
     1)
         echo -e "${C_INFO}[*]${RESET} Launching Trojan deployer..."
-        bash <(curl -sL https://raw.githubusercontent.com/saekacutie/trojan/main/deploy.sh)
+        bash <(curl -sL https://raw.githubusercontent.com/saekacutie/julpone/main/deploy.sh)
         ;;
     2)
         echo -e "${C_INFO}[*]${RESET} Launching Shadowsocks deployer..."
-        bash <(curl -sL https://raw.githubusercontent.com/saekacutie/Shadowsocks/main/deploy-ss.sh)
+        bash <(curl -sL https://raw.githubusercontent.com/saekacutie/shadowsocks/main/deploy-ss.sh)
         ;;
     3)
         echo -e "${C_INFO}[*]${RESET} Launching VMess deployer..."
